@@ -1,0 +1,43 @@
+git status
+
+1. untracked:- new files that git doesn't yet track
+
+2. modified:- changed files
+
+3. staged:- file is ready to be committed
+
+4. unmodified: unchanged files
+
+5. add:- add new or changed files in your working directory to the Git staging area
+i. git add (file name)
+ii. git add . (for every file inside the folder)
+
+6. commit:- it is the record of change
+i. git commit -m "Message"
+
+7. push:- upload local repo content to remote repo
+i. git push origin main
+
+8. init:- used to create a new git repo
+i. git init
+ii. git remote add origin <-link->
+iii. git remote -v
+iv. git branch
+v. git branch -M main (for changing the name from master to main)
+vi. git push origin main
+vii. git push -u origin main (it permanently changes inside the origin main only)
+
+9. git checkout <-branch name-> to navigate
+
+10. git checkout -b <-new branch name-> to create new branch
+
+11. git branch -d <-branch name-> to delete branch , we can't delete the branch that we are currently on
+
+Merging code 
+
+1. git diff <-branch name -> to compare commits, branches, files and more
+
+2. git merger <-branch name-> to merge two branches
+
+3. Pull request:- it lets you tell others about changes you have pushed to a branch in a repo on github
+
